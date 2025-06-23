@@ -64,7 +64,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Configuration
-API_BASE_URL = "http://localhost:8000"
+API_BASE_URL = "https://disaster-dashboard-jgh7.onrender.com"
 REFRESH_INTERVAL = 30  # seconds
 
 class DisasterDashboard:
