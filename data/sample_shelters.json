@@ -1,0 +1,74 @@
+[
+  {
+    "name": "ERC Donation Box – Mercato Mall",
+    "type": "donation_center",
+    "lat": 25.1383,
+    "lon": 55.1859,
+    "city": "Dubai, UAE",
+    "source": "2GIS Mercato Mall"
+  },
+  {
+    "name": "ERC Donation Box – Emirates Towers",
+    "type": "donation_center",
+    "lat": 25.2100,
+    "lon": 55.2760,
+    "city": "Dubai, UAE",
+    "source": "2GIS Emirates Towers"  
+  },
+  {
+    "name": "ERC Donation Box – Al Quoz 1",
+    "type": "donation_center",
+    "lat": 25.1211,
+    "lon": 55.2273,
+    "city": "Dubai, UAE",
+    "source": "HiDubai Al Quoz 1"  
+  },
+  {
+    "name": "ERC Donation Box – Dubai World Trade Centre",
+    "type": "donation_center",
+    "lat": 25.2243,
+    "lon": 55.2978,
+    "city": "Dubai, UAE",
+    "source": "HiDubai DWTC"  
+  },
+  {
+    "name": "ERC Donation Box – Jebel Ali (Lulu Hypermarket)",
+    "type": "donation_center",
+    "lat": 24.9776,
+    "lon": 55.0990,
+    "city": "Dubai, UAE",
+    "source": "HiDubai Jebel Ali"  
+  },
+  {
+    "name": "Salvation Army Centre of Hope – London",
+    "type": "shelter",
+    "lat": 42.9854,
+    "lon": -81.2455,
+    "city": "London, ON, Canada",
+    "source": "InformationLondon Centre of Hope"  
+  },
+  {
+    "name": "Salvation Army – Mississauga (Cawthra Rd)",
+    "type": "shelter",
+    "lat": 43.5400,
+    "lon": -79.6450,
+    "city": "Mississauga, ON, Canada",
+    "source": "Healthline Mississauga"  
+  },
+  {
+    "name": "Salvation Army – Cawthra Rd Shelter, Mississauga",
+    "type": "shelter",
+    "lat": 43.5400,
+    "lon": -79.6450,
+    "city": "Mississauga, ON, Canada",
+    "source": "Healthline Mississauga"  
+  },
+  {
+    "name": "Salvation Army – Calgary Family Services",
+    "type": "shelter",
+    "lat": 51.0456,
+    "lon": -114.0628,
+    "city": "Calgary, AB, Canada",
+    "source": "SalvationArmyCalgary contact page"  
+  }
+]
