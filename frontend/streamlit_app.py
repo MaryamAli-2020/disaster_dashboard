@@ -33,6 +33,11 @@ st.markdown("""
         text-align: center;
         margin-bottom: 2rem;
     }
+    .main .block-container {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        padding-top: 1rem !important;
+    }
     .metric-card {
         background-color: #f0f2f6;
         padding: 1rem;
@@ -477,7 +482,7 @@ class DisasterDashboard:
             st.session_state.auto_refresh = auto_refresh
             
             # Manual refresh button
-            if st.button("🔄 Refresh Now"):
+            if st.button("Refresh Now"):
                 st.session_state.data_cache = {}
                 st.rerun()
             
