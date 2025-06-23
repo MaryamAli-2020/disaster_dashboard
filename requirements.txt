@@ -1,33 +1,10 @@
-# FastAPI Backend Requirements
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-httpx==0.25.2
-python-multipart==0.0.6
-
-# Streamlit Frontend Requirements
+# Streamlit Frontend & Data Science Requirements for Deployment
 streamlit==1.28.2
 streamlit-folium==0.15.1
-
-# Data Processing
-numpy==1.26.4
-pandas==2.1.4
-
-# Visualization
-plotly==5.18.0
 folium==0.15.0
-
-# HTTP Requests
+plotly==5.18.0
+pandas==2.1.4
+numpy==1.26.4
 requests==2.31.0
-
-# Logging and Utilities
-python-json-logger==2.0.7
-
-# Optional: For production deployment
-gunicorn==21.2.0
-
-# Optional: For enhanced features
-redis==5.0.1  # For advanced caching
-celery==5.3.4  # For background tasks
-aiofiles==23.2.1  # For async file operations
-Pillow==10.1.0  # For image processing
-geopy==2.4.1  # For geocoding
+Pillow==10.1.0
+geopy==2.4.1
