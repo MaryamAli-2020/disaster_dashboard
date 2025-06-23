@@ -1,33 +1,26 @@
-# FastAPI Backend Requirements
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-httpx==0.25.2
-python-multipart==0.0.6
+# Use Python 3.10 or 3.11 (not 3.13)
+python_version = "3.10"
 
-# Streamlit Frontend Requirements
+# Backend
+fastapi==0.95.1
+uvicorn==0.22.0
+httpx==0.24.1
+
+# Frontend
 streamlit==1.28.2
+folium==0.14.0
 streamlit-folium==0.15.1
 
-# Data Processing
-numpy==1.26.4
-pandas==2.1.4
+# Data processing
+pandas==1.5.3  # Downgraded for compatibility
+numpy==1.24.3
+scikit-learn==1.2.2
 
-# Visualization
-plotly
-folium==0.15.0
+# Images
+pillow==9.5.0  # More stable version
 
-# HTTP Requests
-requests==2.31.0
-
-# Logging and Utilities
-python-json-logger==2.0.7
-
-# Optional: For production deployment
-gunicorn==21.2.0
-
-# Optional: For enhanced features
-redis==5.0.1  # For advanced caching
-celery==5.3.4  # For background tasks
-aiofiles==23.2.1  # For async file operations
-Pillow==10.1.0  # For image processing
-geopy==2.4.1  # For geocoding
+# Utilities
+python-dotenv==1.0.0
+click==8.1.3
+protobuf==3.20.3
+pyarrow==10.0.1
