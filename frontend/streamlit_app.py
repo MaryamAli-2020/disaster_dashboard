@@ -574,8 +574,8 @@ class DisasterDashboard:
             if show_relief and data.get('relief_centers'):
                 self.add_relief_centers_to_map(m, data['relief_centers'])
             folium.LayerControl().add_to(m)
-            map_data = st_folium(m, width=800, height=600)
-        
+            map_data = st_folium(m, height=600, use_container_width=True)
+
         with col2:
             # Display alerts
             self.display_recent_alerts(
