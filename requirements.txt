@@ -9,8 +9,8 @@ streamlit==1.28.2
 streamlit-folium==0.15.1
 
 # Data Processing
+numpy==1.26.4
 pandas==2.1.4
-numpy==1.25.2
 
 # Visualization
 plotly
