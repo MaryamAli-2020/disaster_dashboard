@@ -4,7 +4,7 @@ streamlit-folium==0.15.1
 folium==0.15.0
 plotly==5.18.0
 --only-binary=pandas
-pandas==2.1.4
+pandas==2.2.3
 numpy==1.26.4
 requests==2.31.0
 Pillow==10.1.0
